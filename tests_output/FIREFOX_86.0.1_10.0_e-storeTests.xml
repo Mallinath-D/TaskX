@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="3"
+            failures="1"
+            tests="1">
+
+  <testsuite name="e-storeTests"
+    errors="3" failures="1" hostname="" id="" package="e-storeTests" skipped="1"
+    tests="1" time="6.398" timestamp="">
+  
+    <testcase name="Test Case-1: Should be able to buy products " classname="e-storeTests" time="6.398" assertions="3">
+
+    
+
+      <failure message="Testing if element &lt;Element [name=@productSelector]&gt; contains text &#39;PRODUCTS&#39; in 5000ms - expected &#34;contains text &#39;PRODUCTS&#39;&#34; but got: &#34;element could not be located&#34; (5182ms)">    at Page.successUserLogin (c:\Project\TaskX\page-objects\saucedemo.js:37:17)
+    at Object.Test Case-1: Should be able to buy products  (c:\Project\TaskX\tests\e-storeTests.js:21:10)</failure>
+
+    
+    <error message="Error while running &#34;containsText&#34; command: Testing if element [0;33m&lt;Element [name=@productSelector]&gt;[0m contains text [0;33m&#39;PRODUCTS&#39;[0m in 5000ms - expected [0;32m&#34;contains text &#39;PRODUCTS&#39;&#34;[0m but got: [0;31m&#34;element could not be located&#34;[0m [0;90m(5182ms)[0m" type="error"><![CDATA[
+        at Page.successUserLogin (c:\Project\TaskX\page-objects\saucedemo.js:37:17)
+    at Object.Test Case-1: Should be able to buy products  (c:\Project\TaskX\tests\e-storeTests.js:21:10)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        TimeoutError: An error occurred while running .setValue() command on &lt;Element [name=@userNameSelector]&gt;: invalid argument; missing field `text` at line 1 column 2
+   {&#34;status&#34;:-1,&#34;value&#34;:{&#34;error&#34;:&#34;invalid argument&#34;,&#34;message&#34;:&#34;missing field `text` at line 1 column 2&#34;,&#34;stacktrace&#34;:&#34;&#34;},&#34;code&#34;:&#34;&#34;,&#34;errorStatus&#34;:&#34;&#34;,&#34;error&#34;:&#34;missing field `text` at line 1 column 2&#34;,&#34;httpStatusCode&#34;:400}
+       at Page.fillAndSubmit (c:\Project\TaskX\page-objects\saucedemo.js:29:14)
+       at Page.validUsernamePassword (c:\Project\TaskX\page-objects\saucedemo.js:24:21)
+       at Object.Test Case-1: Should be able to buy products  (c:\Project\TaskX\tests\e-storeTests.js:20:10)
+  TimeoutError: An error occurred while running .setValue() command on &lt;Element [name=@passwordSelector]&gt;: invalid argument; missing field `text` at line 1 column 2
+   {&#34;status&#34;:-1,&#34;value&#34;:{&#34;error&#34;:&#34;invalid argument&#34;,&#34;message&#34;:&#34;missing field `text` at line 1 column 2&#34;,&#34;stacktrace&#34;:&#34;&#34;},&#34;code&#34;:&#34;&#34;,&#34;errorStatus&#34;:&#34;&#34;,&#34;error&#34;:&#34;missing field `text` at line 1 column 2&#34;,&#34;httpStatusCode&#34;:400}
+       at Page.fillAndSubmit (c:\Project\TaskX\page-objects\saucedemo.js:30:14)
+       at Page.validUsernamePassword (c:\Project\TaskX\page-objects\saucedemo.js:24:21)
+       at Object.Test Case-1: Should be able to buy products  (c:\Project\TaskX\tests\e-storeTests.js:20:10)
+  NoSuchElementError: An error occurred while running .getText() command on &lt;Element [name=@productSelector]&gt;: 
+   {&#34;value&#34;:[]}
+       at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    </system-err>
+  
+
+    
+
+  
+    
+    <testcase
+      name="Test Case-2: Should be able to buy one or more products " classname="e-storeTests">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

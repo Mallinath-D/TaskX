@@ -1,0 +1,44 @@
+{
+    "src_folders": ["tests"],
+    "page_objects_path": "page-objects",
+    "globals_path": "",
+     "output_folder" : "./reports",
+    "skip_testcases_on_fail": false,
+    "selenium": {
+        "start_process": false
+    },
+
+    "webdriver": {
+        "start_process": true,
+        "server_path": "node_modules/chromedriver/lib/chromedriver/chromedriver",
+        "port": 9515
+    },
+
+    "test_settings": {
+        "default": {
+            "desiredCapabilities": {
+                "browserName": "chrome"
+            },
+            "globals": {
+              "launch_url" : "https://www.saucedemo.com/",
+              "username": "standard_user",
+              "password": "secret_sauce"
+          }
+            
+        },
+        "dev": {
+            "globals": {
+                "username": "standard_user",
+                 "password": "secret_sauce"
+                }
+            
+        },
+        "production": {
+            "globals": {
+              "username": "standard_user",
+              "password": "secret_sauce"
+            }
+            
+        }
+    }
+}

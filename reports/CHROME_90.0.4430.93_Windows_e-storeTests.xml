@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="2">
+
+  <testsuite name="e-storeTests"
+    errors="0" failures="0" hostname="" id="" package="e-storeTests" skipped="0"
+    tests="2" time="4.594" timestamp="">
+  
+    <testcase name="Test Case-1: Should be able to buy products " classname="e-storeTests" time="2.730" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Test Case-2: Should be able to buy one or more products " classname="e-storeTests" time="1.864" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
