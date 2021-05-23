@@ -1,2 +1,2 @@
 # TaskX
-NightWatch test caes
+NightWatch test cases
